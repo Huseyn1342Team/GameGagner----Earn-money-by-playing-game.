@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/page_1"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Ana səhifə"/>
+    <item
+        android:id="@+id/page_2"
+        android:enabled="true"
+        android:iconTint="@color/colorWhite"
+        android:icon="@drawable/ic_baseline_account_balance_wallet_24"
+        android:title="Hesabım"/>
+    <item
+        android:id="@+id/page_3"
+        android:enabled="true"
+        android:iconTint="@color/colorWhite"
+        android:icon="@drawable/ic_baseline_person_24"
+        android:title="Profil"/>
+    <item
+        android:id="@+id/page_4"
+        android:enabled="true"
+        android:iconTint="@color/colorWhite"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="Parametrlər"/>
+    <item
+        android:id="@+id/page_5"
+        android:enabled="true"
+        android:iconTint="@color/colorWhite"
+        android:icon="@drawable/ic_baseline_contact_support_24"
+        android:title="Əlaqə"/>
+</menu>

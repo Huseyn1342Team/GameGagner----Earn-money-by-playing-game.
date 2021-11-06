@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">GameGagner</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <!--*Banner ad unit id: ca-app-pub-1659692064472439/9762486942-->
+    <!--*Video ad unit id: ca-app-pub-1659692064472439/4127016880-->
+    <!--*App id: ca-app-pub-1659692064472439~3388650283-->
+    <!--*Sample banner id: ca-app-pub-3940256099942544/6300978111-->
+    <!--*Sample Rewarded id: ca-app-pub-3940256099942544/5224354917-->
+    <string name="app_id">ca-app-pub-5877274601350073~1694987755</string>
+    <string name="banner_id">ca-app-pub-1659692064472439/9762486942</string>
+    <string name="reward_id">ca-app-pub-1659692064472439/4127016880</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+</resources>

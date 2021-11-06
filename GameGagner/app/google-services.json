@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "305322871774",
+    "firebase_url": "https://gamegagner.firebaseio.com",
+    "project_id": "gamegagner",
+    "storage_bucket": "gamegagner.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:305322871774:android:a267d0b85074c386442b4f",
+        "android_client_info": {
+          "package_name": "com.onethreefourtwo.gamegagner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "305322871774-0b1em8r9cbtgio24d01haih8pgkkr33q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTbdIPZAT18YiDqBi3cPcTNRc-yyUypM8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "305322871774-0b1em8r9cbtgio24d01haih8pgkkr33q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

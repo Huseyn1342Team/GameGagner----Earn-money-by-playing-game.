@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CapitalScreen">
+    <ScrollView
+        android:background="#de9"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        android:fitsSystemWindows="true"
+        tools:ignore="MissingConstraints">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical">
+            <!-- Sual 1 -->
+            <TextView
+                android:id="@+id/title0"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="40sp"
+                android:fontFamily="@font/bangers"
+                android:text="Sual 1"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="70dp"/>
+            <ImageView
+                android:id="@+id/Image1"
+                android:layout_width="300dp"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:layout_height="250dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/washington" />
+            <TextView
+                android:id="@+id/Text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/baloo"
+                android:gravity="center"
+                android:text="Amerika Birləşmiş Ştatlarının paytaxtı hansı ölkədir?"
+                android:textAlignment="center"
+                android:textSize="28sp" />
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card0"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:layout_marginRight="30dp"
+                app:cardCornerRadius="15dp">
+
+                <LinearLayout
+                    android:id="@+id/VariantA"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/VariantAText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:fontFamily="@font/baloo"
+                        android:text="A) Washington"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="27sp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card1"
+                android:backgroundTint="@color/colorPrimary"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="30dp"
+                app:cardCornerRadius="15dp">
+
+                <LinearLayout
+                    android:id="@+id/VariantB"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/VariantBText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:fontFamily="@font/baloo"
+                        android:text="A) Washington"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="27sp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card2"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:layout_marginRight="30dp"
+                app:cardCornerRadius="15dp">
+
+                <LinearLayout
+                    android:id="@+id/VariantC"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/VariantCText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:fontFamily="@font/baloo"
+                        android:text="A) Washington"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="27sp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card3"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:layout_marginRight="30dp"
+                app:cardCornerRadius="15dp">
+
+                <LinearLayout
+                    android:id="@+id/VariantD"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/VariantDText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:fontFamily="@font/baloo"
+                        android:text="A) Washington"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="27sp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <!-- Sual 1 end -->
+            <!-- Sual 2 -->
+            <TextView
+                android:id="@+id/title1"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="40sp"
+                android:fontFamily="@font/bangers"
+                android:text="Sual 2"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"/>
+            <ImageView
+                android:id="@+id/Image11"
+                android:layout_width="300dp"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:layout_height="250dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/washington" />
+            <TextView
+                android:id="@+id/Text11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/baloo"
+                android:gravity="center"
+                android:text="Amerika Birləşmiş Ştatlarının paytaxtı hansı ölkədir?"
+                android:textAlignment="center"
+                android:textSize="28sp" />
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card10"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="30dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="30dp"
+                app:cardCornerRadius="15dp">
+
+                <LinearLayout
+                    android:id="@+id/Variant1A"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/Variant1AText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:fontFamily="@font/baloo"
+                        android:text="A) Washington"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="27sp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card11"
+                android:layout_width="match_parent"
+                android:backgroundTint="@color/colorPrimary"
+                android:layout_height="45dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="30dp"
+                app:cardCornerRadius="15dp">
+
+                <LinearLayout
+                    android:id="@+id/Variant1B"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/Variant1BText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:fontFamily="@font/baloo"
+                        android:text="A) Washington"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="27sp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card12"
+                android:layout_width="match_parent"
+                android:backgroundTint="@color/colorPrimary"
+                android:layout_height="45dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="30dp"
+                app:cardCornerRadius="15dp">
+
+                <LinearLayout
+                    android:id="@+id/Variant1C"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/Variant1CText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:fontFamily="@font/baloo"
+                        android:text="A) Washington"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="27sp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card13"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="30dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="30dp"
+                app:cardCornerRadius="15dp">
+
+                <LinearLayout
+                    android:id="@+id/Variant1D"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/Variant1DText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:fontFamily="@font/baloo"
+                        android:text="A) Washington"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="27sp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <!-- Sul 2 end-->
+            <!-- Sual 3 -->
+            <TextView
+                android:id="@+id/title2"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="40sp"
+                android:fontFamily="@font/bangers"
+                android:text="Sual 3"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"/>
+            <ImageView
+                android:id="@+id/Image21"
+                android:layout_width="300dp"
+                android:scaleType="centerCrop"
+                android:adjustViewBounds="true"
+                android:layout_height="250dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/washington" />
+            <TextView
+                android:id="@+id/Text21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/baloo"
+                android:gravity="center"
+                android:text="Amerika Birləşmiş Ştatlarının paytaxtı hansı ölkədir?"
+                android:textAlignment="center"
+                android:textSize="28sp" />
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card20"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="30dp"
+                android:backgroundTint="@color/colorPrimary"
+                app:cardCornerRadius="15dp">
+
+                <LinearLayout
+                    android:id="@+id/Variant2A"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/Variant2AText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:fontFamily="@font/baloo"
+                        android:text="A) Washington"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="27sp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:backgroundTint="@color/colorPrimary"
+                android:id="@+id/card21"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="30dp"
+                app:cardCornerRadius="15dp">
+
+                <LinearLayout
+                    android:id="@+id/Variant2B"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/Variant2BText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:fontFamily="@font/baloo"
+                        android:text="A) Washington"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="27sp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card22"
+                android:backgroundTint="@color/colorPrimary"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="30dp"
+                app:cardCornerRadius="15dp">
+
+                <LinearLayout
+                    android:id="@+id/Variant2C"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/Variant2CText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:fontFamily="@font/baloo"
+                        android:text="A) Washington"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="27sp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card23"
+                android:layout_width="match_parent"
+                android:layout_height="45dp"
+                android:layout_marginLeft="30dp"
+                android:backgroundTint="@color/colorPrimary"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="30dp"
+                app:cardCornerRadius="15dp">
+
+                <LinearLayout
+                    android:id="@+id/Variant2D"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/Variant2DText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:fontFamily="@font/baloo"
+                        android:text="A) Washington"
+                        android:textColor="@color/colorWhite"
+                        android:textSize="27sp" />
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <!-- Sual 3 end-->
+            <RelativeLayout
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_marginBottom="80dp"
+                android:layout_height="wrap_content"
+                >
+                <Button
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="210dp"
+                    android:layout_height="55dp"
+                    android:background="@drawable/button_background"
+                    android:text="Bitir"
+                    android:textSize="21sp"
+                    android:textStyle="bold"
+                    android:textColor="@android:color/white"
+                    android:id="@+id/submit"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
